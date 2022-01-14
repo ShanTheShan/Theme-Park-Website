@@ -8,14 +8,21 @@
     <link rel="stylesheet" href="Booking.css" />
   </head>
   <body>
-    <nav>
+    
+      <br>
+      <!--Grid layout that display page content-->
+      <div class="grid-container">
+        <div class="grid-content">
+
+      <nav>
       <!--Button to head back to the main page-->
       <a href="/Main_Page.html"><button>&#8592; Back</button></a>
-    </nav>
-    <img src="/Images/Logo.png" alt="cosmos_logo" />
-    <h1>Cosmos</h1>
-    <div>
-      <!--User to fill in their name for ticket booking purposes-->
+      </nav>
+
+      <img src="/Images/Logo.png" alt="cosmos_logo" />
+
+      <div>
+      <!--User to fill in their particulars in the form-->
       <form>
         <label for="visit_date">Visit Date</label>
         <input type="date" name="visit_date" id="visit_date" />
@@ -50,32 +57,21 @@
         <br />
         <label for="email_addr">Email:</label>
         <input type="text" name="email_addr" id="email_addr" value="" />
+        
         <p>E-tickets will be sent to this email!</p>
-        <div></div>
-        <br />
-        <br />
-        <br />
-        <br />
+
         <!--submit button to proceed to payment window-->
         <input type="submit" value="Proceed to Payment" />
-        <section>
-          <!--various promotions available at Cosmos-->
-          <!--Description given through simple Header and Paragraph layout accompanied with image-->
-          <h1>Turor Bank Exclusive: Cosmos Dining Experience</h1>
+      </form>
+        </div>
+        <div class="grid-content">
+          <h1>Turor Bank Exclusive: Cosmos Dining Experience<h1>
           <img id="bankcard_pic" src="/Images/bankcard.jpeg" alt="bankcard" />
           <p>
-            Patrons who are holders of Turor Bank credit cards are entitled to
-            10% discount on all of Cosmos's restaurants.
+          Patrons who are holders of Turor Bank credit cards are entitled to 10%
+          discount on all of Cosmos's restaurants.
           </p>
-          <h2>Cosmos One Week Pass(ADULT)</h2>
-          <img id="one_week_tix_pic" src="/Images/Ticket.jpeg" alt="ticket" />
-          <p>
-            Purchase two adult passes on the 15th of every month to stand a
-            chance to win a one month adult pass! Monthly passes allows
-            unlimited entry into Cosmos for the duraion of the specified month.
-          </p>
-        </section>
-      </form>
+        </div>
     </div>
   </body>
 </html>
