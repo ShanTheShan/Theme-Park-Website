@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Main_Page.css" />
+    <link rel="stylesheet" href="file:///E:/fontawesome/css/all.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Cosmos Theme Park</title>
+  </head>
+  <!--color of the page's background-->
+  <style>
+    body {
+      background-color: rgb(203, 201, 228);
+    }
+  </style>
+ <body>
+     
+<!--navigation---------     -->
+     
+<nav>
+    <img class="logo" src="Images/Logo.png" alt="logo" />
+    
+    <label for="btn" class="icon">
+    <span class="fa fa-bars"></span></label>
+    <input type="checkbox" id="btn">
+    <ul>
+        <li><a href ="Main_Page.html">Home</a></li>
+        
+        <li>
+        <label for="btn-1" class="show">Rides+</label>
+              <a href ="#">Rides</a>
+          <input type="checkbox" id="btn-1"> 
+            <ul>
+                <li><a href ="Galaxy_Warrior.html">Galaxy Warrior</a></li>
+                <li><a href ="Star_Gaze.html">Star Gaze</a></li>
+    
+            </ul>    
+        </li>
+        
+        <li><a href ="Dining.html">Dining</a></li>
+        <li><a href ="#about">About Us</a></li>
+        <li><a href ="#contacts">Contct Us</a></li>
+        
+    </ul>  
+</nav>    
+      
+<!-- end of navigation----------     -->
+      
+    <!--   main image  -->
+        <img class="main_image" src="Images/Main_Image.jpeg"
+          alt="main_photo"/>
+        <!-- This is the main image that will be  displayed on home page-->
+
+<div class="below_main_img">
+
+<div id="about" class="content">
+    <h1>Welcome to Cosmos!</h1>
+    <article>
+      <p>
+        Opened in 2018, Cosmos has been voted best theme park for 2 years in a
+        row. Priding ourselves in providing not only the best attractions and
+        entertainements shows, but also the safest! Ensuring our patrons are
+        safe and satisfied are our top priorities. Whether young or old, our
+        theme park has something for everyone. What are you waiting for? Book
+        your tickets now!
+      </p>
+    </article>
+</div>
+    
+    
+    <main>
+      
+      
+      
+      
+      <!--Adding lots of br to temporarily make viewing of the website easier. Style in css later.-->
+      <br />
+      <br />
+      <br />
+      <!--button to lead to booking page-->
+      <a href="Booking.html"><button id="booking_btn">Book Now!</button></a>
+      <br />
+      <br />
+      <br />
+      <br />
+      
+      <div class ="video">
+        <video controls>
+          <source src="Images/Main_Video.mp4"
+                  type="video/mp4" />
+            Your browser does not support mp4 videos.
+        </video>
+      </div>
+      <br />
+      <br />
+      <br />
+      <!--rides images with links to ride pages-->
+<div id="ride">
+<div class="content">  
+    <div class="galaxy_warrior">
+      <a href="Galaxy_Warrior.html"
+        ><img class="ride_img" src="Images/Galaxy_Warrior.jpg" alt="Galaxy_Warrior"
+      /></a>
+    <div class="gw_content">
+        <h2>Galaxy Warrior</h2>
+        <p class = ride_p> Space travel is really interesting and we all love to hear about space travel. For the thrill seeker in us all.
+            <br/>
+            <br/>
+            <a href = "Galaxy_Warrior.html">Find Out More.</a></p>
+    </div>
+    </div>
+</div> 
+      <br />
+<div class="content"> 
+    <div class="star_gaze">
+      <a href="Star_Gaze.html"
+        ><img class="ride_img" src="Images/Star_gaze.jpg" alt="Star_gaze"
+      /></a>
+    <div class="sg_content">
+        <h2>Star Gaze</h2>
+        <p class="ride_p">There wouldn't be a sky full of stars if we were all meant to wish on the same one.
+            <br/>
+            <br/>
+            <a href = "Star_Gaze.html">Find Out More.</a></p>
+    </div>
+    </div>    
+</div>
+</div>
+    
+    </main>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+<!--
+<div id="contact">
+    <button class="FB_button">Facebook</button>
+    <button class="IG_button">Instagram</button>
+</div>
+-->
+<footer>
+    <div class="footer-content">
+        <h3>Cosmos</h3>
+        <p>By using our website, you agree to our use of cookies in accordance with our cookies policy. | Legal Information | Data Protection Statement</p>
+        
+        <ul id="contacts" class="socials">
+            <li><a href = "#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href = "#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href = "#"><i class="fa fa-twitter"></i></a></li>
+        </ul>   
+    </div> 
+    <div class="footer-bottom">
+        <p>copyright &copy;2020 cosmos. designed by <span>team 136</span></p>
+    </div>
+</footer>    
+
+    
+</div>
+</body>
+</html>
