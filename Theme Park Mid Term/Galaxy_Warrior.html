@@ -5,54 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Galaxy_Warrior.css" />
+    <link rel="stylesheet" href="file:///E:/fontawesome/css/all.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Galaxy Warrior Ride Page</title>
   </head>
   <body>
     <nav>
-      <!--Button to head back to the main page-->
-      <a href="/Main_Page.html"><button>&#8592; Back</button></a>
-    </nav>
+      <img class="logo" src="Images/Logo.png" alt="logo" />
+      
+      <label for="btn" class="icon">
+      <span class="fa fa-bars"></span></label>
+      <input type="checkbox" id="btn">
+      <ul>
+          <li><a href ="Main_Page.html">Home</a></li>
+          
+          <li>
+          <label for="btn-1" class="show">Rides+</label>
+                <a href ="#">Rides</a>
+            <input type="checkbox" id="btn-1"> 
+              <ul>
+                  <li><a href ="Galaxy_Warrior.html">Galaxy Warrior</a></li>
+                  <li><a href ="Star_Gaze.html">Star Gaze</a></li>
+      
+              </ul>    
+          </li>
+          
+          <li><a href ="Dining.html">Dining</a></li>
+          <li><a href ="Main_Page.html#about">About Us</a></li>
+          <li><a href ="#contacts">Contct Us</a></li>
+          
+      </ul>  
+  </nav> 
     <!--Main Image for this ride-->
     <img
       id="main_galaxy_warrior_pic"
-      src="/Images/Galaxy_Warrior.jpg"
+      src="Images/Galaxy_Warrior.jpg"
       alt="galaxy_warrior"
     />
-    <main>
-      <!--Header to introduce user to the ride-->
-      <h1>Galaxy Warrior</h1>
-      <!--para explaining the ride-->
-      <p>
-        Embark on an action-packed journey to defend our galaxy from the evil
-        alien horde! Engage in this stunning triple duelling roller coasters!
-        Modelled after the award winning movie The Galaxy Warriors Strikes Back,
-        this thirlling, spectacular, adrenaline rushing coaster offers users the
-        ultimate roller coaster experience. From twist and turns, to sudden
-        drops, we got it all.
-      </p>
-      <h2>Details and Requirements</h2>
-      <!--Unorder list containing ride info-->
-      <div class="galaxy_req">
-        <ul>
+    <br>
+    <br>
+    <br>
+    <main >
+
+      <div class="content">
+        <!--Header to introduce user to the ride-->
+        <h1 class="Gw">Galaxy Warrior</h1>
+        <!--para explaining the ride-->
+        <p class="Gw">
+          Embark on an action-packed journey to defend our galaxy from the evil
+          alien horde! Engage in this stunning triple duelling roller coasters!
+          Modelled after the award winning movie The Galaxy Warriors Strikes Back,
+          this thirlling, spectacular, adrenaline rushing coaster offers users the
+          ultimate roller coaster experience. From twist and turns, to sudden
+          drops, we got it all.
+        </p>
+      </div>
+<br>
+<br>
+
+      <div class="content">
+        <h2 style="text-align: center;">Details and Requirements</h2>
+        <!--Unorder list containing ride info-->
+        <div class="galaxy_req">
+          <ul>
           <li>Minimum Ride Height: 1.65m</li>
           <li>Maximum Ride Height: 2.05m</li>
           <li>Minimum Age: 8 years of age</li>
           <li>Length of Track: 3km</li>
           <li>Height at Peak: 35m</li>
         </ul>
+        </div>
       </div>
+
+<br>
+<br>
+      
       <!--Warning for users in Italic/Cursive-->
-      <p>
+      <p style="font-weight: 900; text-align: center;">
         Due to the nature of the ride, patrons are expected to be physically fit
         with no underlying health conditions which could compromise their
         well-being during the duraion of the ride.
       </p>
     </main>
-    <nav>
+ 
       <!--button to lead to booking page-->
-      <div id="book_btn">
+      <div id="book_btn" style="text-align: center;">
         <a href="Booking.html"><button id="booking_btn">Book Now!</button></a>
       </div>
-    </nav>
+    <br>
+    <br>
+    <br>
+
+      <footer>
+        <div class="footer-content">
+            <h3>Cosmos</h3>
+            <p>By using our website, you agree to our use of cookies in accordance with our cookies policy. | Legal Information | Data Protection Statement</p>
+            
+            <ul id="contacts" class="socials">
+                <li><a href = "#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href = "#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href = "#"><i class="fa fa-twitter"></i></a></li>
+            </ul>   
+        </div> 
+        <div class="footer-bottom">
+            <p>copyright &copy;2020 cosmos. designed by <span>team 136</span></p>
+        </div>
+    </footer>    
+
   </body>
 </html>
