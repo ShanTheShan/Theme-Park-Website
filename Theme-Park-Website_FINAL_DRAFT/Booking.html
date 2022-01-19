@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking Page</title>
+    <link rel="stylesheet" href="Booking.css" />
+  </head>
+  <body>
+    
+      <br>
+      <!--Grid layout that display page content-->
+      <div class="grid-container">
+        <div class="grid-content">
+
+      <nav>
+      <!--Button to head back to the main page-->
+      <a href="/Main_Page.html"><button>&#8592; Back</button></a>
+      </nav>
+
+      <img src="/Images/Logo.png" alt="cosmos_logo" />
+
+      <div>
+      <!--User to fill in their particulars in the form-->
+      <form>
+        <label for="visit_date">Visit Date</label>
+        <input type="date" name="visit_date" id="visit_date" />
+        <br />
+        <br />
+        <label for="adult_tix">Adult: $25</label>
+        <input
+          type="number"
+          name="adult_tix"
+          id="adult_tix"
+          value="adult"
+          min="1"
+          max="10"
+        />
+        <label for="child_tix">Children: $20</label>
+        <input
+          type="number"
+          name="child_tix"
+          id="child_tix"
+          value="children"
+          min="0"
+          max="10"
+        />
+        <br />
+        <br />
+        <label for="first_name">First Name:</label>
+        <input type="text" name="first_name" id="first_name" value="" />
+        <br />
+        <label for="last_name">Last Name:</label>
+        <input type="text" name="last_name" id="last_name" value="" />
+        <br />
+        <br />
+        <label for="email_addr">Email:</label>
+        <input type="text" name="email_addr" id="email_addr" value="" />
+        
+        <p>E-tickets will be sent to this email!</p>
+
+        <!--submit button to proceed to payment window-->
+        <input type="submit" value="Proceed to Payment" />
+      </form>
+        </div>
+        <div class="grid-content">
+          <h1>Turor Bank Exclusive: Cosmos Dining Experience<h1>
+          <img id="bankcard_pic" src="/Images/bankcard.jpeg" alt="bankcard" />
+          <p>
+          Patrons who are holders of Turor Bank credit cards are entitled to 10%
+          discount on all of Cosmos's restaurants.
+          </p>
+        </div>
+    </div>
+  </body>
+</html>
